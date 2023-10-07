@@ -8,6 +8,9 @@
   
   <title>Frontend Mentor | Tip calculator app</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -19,33 +22,47 @@
     <img src="./images/logo.svg" alt="logo">
   </header>
   <main class="main">
-    <label for="number">Bill</label>
-    <input name="number" type="number">
-
-    Select Tip %
-    <button>5%</button> 
-    <button>10%</button> 
-    <button>15%</button> 
-    <button>25%</button> 
-    <button>50%</button> 
-    <input type="number" placeholder="custom">
-
-    Number of People
-
+    <section id="calc">
+      <section id="bill">
+        <label for="number" class="bolder">Bill</label>
+        <input name="number" type="text" placeholder="0">
+      </section>
+      <section id="tip">
+        <p class="bolder">Select Tip %</p> 
+        <article id="buttons">
+          <button>5%</button> 
+          <button>10%</button> 
+          <button>15%</button> 
+          <button>25%</button> 
+          <button>50%</button>
+          <input type="text" placeholder="Custom" class="bolder">
+        </article>
+        
+      </section>
+      <section id="numerPeople">
+        <label for="numberPeople" class="bolder" >Number of People</label>
+        <div id="input-container">
+          <input type="text" placeholder="0">
+          <img src="./images/icon-person.svg" alt="">
+        </div>
+      </section>
+    </section>
     <section class="information">
-      Tip Amount
-      / person
+      <p>Tip Amount</p>
+      <p>/ person</p>
 
-      Total
-      / person
+      <p>Total</p>
+      <p>/ person</p>
 
       <button>Reset</button>
     </section>
   </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Emanuel Marques</a>.
+    </div>
+  </footer>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Emanuel Marques</a>.
-  </div>
 </body>
 </html>
