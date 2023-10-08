@@ -18,9 +18,9 @@ header {
   border-radius: 40px;
   color: #547675;
   display: flex;
-  width: 600px;
+  width: 800px;
   margin: 20px;
-  padding: 40px 90px 40px 40px;
+  padding: 40px 50px 40px 40px;
 }
 
 input {
@@ -42,20 +42,52 @@ button {
   background-color: hsl(183, 100%, 15%);
 }
 
+.bolder {
+  font-weight: 700;
+}
+
 .information {
   background-color: #00474B;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
   margin-left: 50px;
 }
-.bolder {
-  font-weight: 700;
+
+.text-information {
+  margin: 10px 10px 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.dinamic {
+  margin: 0 30px 30px 120px;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.dinamic p {
+  color: #2BC3AD;
+}
+
+#static{
+  margin: 0 30px 30px 0px;
+  color: white;
+}
+
+#static em {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2F6164;
+}
+
 .information button {
-  width: 200px;
+  width: 300px;
+  padding: 10px;
   background-color: #25C2AD;
+  margin-left: 80px;
 }
 
 #calc {
