@@ -32,6 +32,12 @@ input {
   font-size: 15px;
 }
 
+input:focus {
+  border: 2px solid #B5F7F0;
+  outline: none;
+  color: #00474B;
+}
+
 button {
   border-radius: 10px;
   cursor: pointer;
@@ -86,8 +92,12 @@ button {
 .information button {
   width: 300px;
   padding: 10px;
-  background-color: #25C2AD;
+  background-color: #0D686D;
   margin-left: 80px;
+}
+
+button:hover {
+  background-color: #9FE8DF;
 }
 
 #calc {
