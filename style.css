@@ -18,7 +18,7 @@ header {
   border-radius: 40px;
   color: #547675;
   display: flex;
-  width: 700px;
+  width: 600px;
   margin: 20px;
   padding: 40px 90px 40px 40px;
 }
@@ -47,19 +47,19 @@ button {
   border-radius: 40px;
   display: flex;
   flex-direction: column;
-  width: 350px;
-  margin-left: 20px;
+  width: 400px;
+  margin-left: 50px;
 }
 .bolder {
   font-weight: 700;
 }
 .information button {
-  width: 300px;
+  width: 200px;
   background-color: #25C2AD;
 }
 
 #calc {
-  width: 350px;
+  width: 300px;
   box-sizing: border-box;
 }
 #bill {
@@ -86,14 +86,18 @@ button {
 }
 
 #buttons input {
-  width: 65px;
-  height: 36px;
+  width: 68px;
+  height: 46px;
   margin-right: 10px;
   font-size: 15px;
 }
 
 #numerPeople label {
   margin: 20px 10px 10px 0;
+}
+
+#input-container input{
+  width: 300px;
 }
 
 #input-container {
