@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -24,25 +24,25 @@
   <main class="main">
     <section id="calc">
       <section id="bill">
-        <label for="number" class="bolder">Bill</label>
-        <input name="number" type="text" placeholder="0">
+        <label for="bill-value" class="bolder">Bill</label>
+        <input name="number" type="text" placeholder="0" id="bill-value">
       </section>
       <section id="tip">
         <p class="bolder">Select Tip %</p> 
         <article id="buttons">
           <button>5%</button> 
           <button>10%</button> 
-          <button>15%</button> 
+          <button id="btn-15">15%</button> 
           <button>25%</button> 
           <button>50%</button>
-          <input type="text" placeholder="Custom" class="bolder">
+          <input type="text" placeholder="Custom" class="bolder" id="valor-Customizado">
         </article>
         
       </section>
       <section id="numerPeople">
-        <label for="numberPeople" class="bolder" >Number of People</label>
+        <label for="number-of-people" class="bolder" >Number of People</label>
         <div id="input-container">
-          <input type="text" placeholder="0">
+          <input type="text" placeholder="0" id="number-of-people">
           <img src="./images/icon-person.svg" alt="">
         </div>
       </section>
@@ -54,7 +54,7 @@
           <p class="bolder">Total <br><em>/ person</em></p>
         </div>
         <div class="dinamic">
-          <p>$0.00</p>
+          <p id="tip-amount-text">$0.00</p>
           <p>$0.00</p>
         </div>
       </div>
@@ -68,6 +68,6 @@
       Coded by <a href="#">Emanuel Marques</a>.
     </div>
   </footer>
-  
+  <script src="./js.js"></script>
 </body>
 </html>
